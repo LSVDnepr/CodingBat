@@ -19,7 +19,7 @@ double23([2, 3]) → false
     }
 
     public static boolean double23(int[] nums) {
-        return (nums.length>1&&((nums[0]==2&&nums[1]==2)||(nums[0]==3&&nums[1]==3)));
+        return nums.length > 1 && ((nums[0] == 2 && nums[1] == 2) || (nums[0] == 3 && nums[1] == 3));
 
     }
 

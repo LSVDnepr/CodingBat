@@ -23,7 +23,7 @@ answerCell(true, false, false) → false
 
 
     public static boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
-        return (!isAsleep&&(!isMorning||isMom));
+        return !isAsleep && (isMorning ? isMom : true);
 
 
     }

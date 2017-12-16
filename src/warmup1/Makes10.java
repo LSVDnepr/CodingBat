@@ -22,7 +22,7 @@ makes10(1, 9) → true
 
 
     public static boolean makes10(int a, int b) {
-        return ((a==10)||(b==10)||(a+b)==10);
+        return (a == 10) || (b == 10) || (a + b) == 10;
     }
 
 
