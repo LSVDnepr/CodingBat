@@ -22,7 +22,7 @@ prefixAgain("abXYabc", 3) → false
 
 
     public static boolean prefixAgain(String str, int n) {
-        return n < str.length() && (str.indexOf(str.substring(0, n), n) > 0);
+        return n<str.length()||(str.indexOf(str.substring(0,n),n)>0);
 
     }
 

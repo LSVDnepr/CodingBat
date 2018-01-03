@@ -22,7 +22,7 @@ xyBalance("yaaxbb") → false
 
 
     public static boolean xyBalance(String str) {
-        return str.length() == 0 || (str.lastIndexOf('y') >= str.lastIndexOf('x'));
+        return (str.length()==0)||(str.lastIndexOf('y')>=str.lastIndexOf('x'));
 
     }
 
